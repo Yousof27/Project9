@@ -188,6 +188,7 @@ function goBill(id, quantity, fromCardCheck) {
         localStorage.setItem('activeBuy', true);
         window.location = 'buy.html';
     } else {
+        localStorage.setItem('page', 'login')
         window.location = 'sign.html';
     }
 }
