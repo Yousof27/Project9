@@ -1,0 +1,14 @@
+Apple 2023 MacBook Pro Laptop M3 chip with 8‑core CPU, 10‑core GPU: Built for Apple Intelligence, 14.2-inch Liquid Retina XDR Display, 8GB Unified Memory, 512GB SSD Storage
+
+4.6
+$1286.01
+
+Brand						Apple
+Model Name					MacBook Pro
+Screen Size					14.2 Inches
+Hard Disk Size				512 GB
+CPU Model					Apple M3
+Ram Memory Installed Size		8 GB
+Operating System				Mac OS
+Graphics Card Description		Integrated
+Graphics Coprocessor		Apple Integrated Graphics

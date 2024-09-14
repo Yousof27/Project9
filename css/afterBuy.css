@@ -1,0 +1,58 @@
+.after-buy .message {
+    width: 600px;
+    margin: 100px auto;
+    padding: 20px 15px;
+    border: 1px solid #222;
+    border-left: none;
+    border-right: none;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+@media (max-width: 768px) {
+    .after-buy .message {
+        margin-top: 50px;
+        width: 100%;
+
+        h1 {
+            font-size: 30px !important;
+        }
+
+        h3 {
+            font-size: 20px !important;
+        }
+    }
+}
+
+.after-buy h1 {
+    text-transform: capitalize;
+    font-size: 35px;
+    line-height: 1.2;
+}
+
+.after-buy h3 {
+    text-transform: capitalize;
+    font-size: 25px;
+    line-height: 1.3;
+}
+
+.after-buy p {
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.after-buy ul {
+    margin-left: 20px;
+    list-style: disc !important;
+}
+
+.after-buy li:not(:last-of-type) {
+    margin-bottom: 10px;
+}
+
+.after-buy span {
+    text-transform: capitalize;
+    font-weight: bold;
+}

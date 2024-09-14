@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/favourite.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Shopping | Favourite</title>
+</head>
+
+<body>
+
+    <!-- Start Header -->
+    <header>
+        <div onclick="closeHeader()" class="overlay"></div>
+        <div class="container">
+            <a href="index.html" class="logo">bestYshop</a>
+            <nav>
+                <button onclick="menuBtn()" class="nav-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul>
+                    <li class="home"><a href="index.html"><i class="fa-solid fa-house"></i>home</a></li>
+                    <li class="shopping"><a href="shopping.html"><i class="fa-solid fa-shop"></i>shopping</a></li>
+                    <li class="card"><a class="permetion card" href="#"><i class="fa-solid fa-cart-shopping"></i><span class="cartNumber"></span>Cart</a></li>
+                    <li class="love"><a class="permetion love" href="#"><i class="fa-solid fa-heart"></i><span class="favourtieNumber"></span>Favourite</a></li>
+                    <li class="stop login"><a onclick="goLogin()" href="sign.html"><i class="fa-solid fa-arrow-right-to-bracket"></i>login</a></li>
+                    <li class="stop sign-up"><a onclick="goSignUp()" href="sign.html"><i class="fa-solid fa-hands"></i>sign up</a></li>
+                    <li class="start"><a onclick="goUser()" class="username"></a></li>
+                    <li class="start sign-out"><a onclick="signOut()" href="sign.html">sign out<i class="fa-solid fa-arrow-right-from-bracket"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- End Header -->
+
+
+    <section class="page favourite">
+        <div class="container">
+            <h2 class="page-title">favourites</h2>
+            <div class="path page-path">
+                <p>
+                    <a href="index.html">home</a>
+                    <span>></span>
+                    <a href="user.html"></a>
+                    <span>></span>
+                    <a href="favourite.html">favourites</a>
+                </p>
+            </div>
+
+            <div class="boxs-con"></div>
+        </div>
+    </section>
+
+
+    <script src="js/header.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/favourite.js"></script>
+</body>
+
+</html>

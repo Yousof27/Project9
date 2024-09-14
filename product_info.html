@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/sign.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/product_info.css">
+    <title>Shopping | Product Details</title>
+</head>
+
+<body>
+    <header>
+        <div onclick="closeHeader()" class="overlay"></div>
+        <div class="container">
+            <a href="index.html" class="logo">bestYshop</a>
+            <nav>
+                <button onclick="menuBtn()" class="nav-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul>
+                    <li class="home"><a href="index.html"><i class="fa-solid fa-house"></i>home</a></li>
+                    <li class="shopping"><a href="shopping.html"><i class="fa-solid fa-shop"></i>shopping</a></li>
+                    <li class="card"><a class="permetion card" href="#"><i class="fa-solid fa-cart-shopping"></i><span class="cartNumber"></span>Cart</a></li>
+                    <li class="love"><a class="permetion love" href="#"><i class="fa-solid fa-heart"></i><span class="favourtieNumber"></span>Favourite</a></li>
+                    <li class="stop login"><a onclick="goLogin()" href="sign.html"><i class="fa-solid fa-arrow-right-to-bracket"></i>login</a></li>
+                    <li class="stop sign-up"><a onclick="goSignUp()" href="sign.html"><i class="fa-solid fa-hands"></i>sign up</a></li>
+                    <li class="start"><a onclick="goUser()" class="username"></a></li>
+                    <li class="start sign-out"><a onclick="signOut()" href="sign.html">sign out<i class="fa-solid fa-arrow-right-from-bracket"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="product-info">
+        <div class="page">
+            <div class="container">
+                <h2 class="page-title">product info</h2>
+                <div class="path page-path">
+                    <p><a href="index.html">home</a>
+                        <span>></span>
+                        <a href="shopping.html" class="shopping">shopping</a>
+                        <span>></span>
+                        <a href="#" class="product-type"></a>
+                        <span>></span>
+                        <a href="product_info.html" class="product-title"></a>
+                    </p>
+                </div>
+                <div class="product">
+                    <div class="slyder">
+                        <div class="image-con">
+                            <div class="image"></div>
+                        </div>
+                        <div class="controls image-controls">
+                            <button class="prev popup-button"><i class="fa-solid fa-arrow-left"></i></button>
+                            <div class="icons-con">
+                                <div class="icon icon0 active"></div>
+                                <div class="icon icon1"></div>
+                                <div class="icon icon2"></div>
+                            </div>
+                            <button class="next popup-button"><i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="data-con">
+                        <div class="data">
+                            <h2 class="title">KVIDIO</h2>
+                            <p class="description">KVIDIO [Updated Bluetooth Headphones Over Ear, 65 Hours Playtime
+                                Wireless
+                                Headphones with Microphone,Foldable Lightweight Headset with Deep Bass,HiFi Stereo Sound
+                                for
+                                Travel
+                                Work Cellphone.</p>
+                            <p class="rate">rate: <span>4.4</span></p>
+                            <p class="price">$<span>123.99</span></p>
+
+                            <div class="btns product-btns">
+                                <button class="card"><i class="fa-solid fa-cart-plus fa-bounce"></i></button>
+                                <button class="love"><i class="fa-solid fa-heart fa-beat"></i></button>
+                                <button class="buy">buy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="features">
+        </div>
+    </div>
+
+
+    <script src="js/products.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/product_info.js"></script>
+</body>
+
+</html>

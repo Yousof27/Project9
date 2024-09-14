@@ -1,0 +1,107 @@
+.boxes-con {
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #222;
+    box-shadow: 0px 0px 5px 0px gray;
+    border-radius: 6px;
+
+    &.empty {
+        background-color: unset;
+        border-radius: unset;
+        box-shadow: unset;
+        border: unset;
+    }
+}
+
+.box {
+    padding: 15px;
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+
+
+    &:nth-child(odd) {
+        background-color: #efefef;
+    }
+
+    &:nth-child(even) {
+        background-color: #f8fff7;
+    }
+
+    &:hover {
+        box-shadow: 0px 0px 3px 0px #222;
+        z-index: 10;
+    }
+}
+
+p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+p:not(:first-of-type) {
+    text-align: center;
+}
+
+p:last-of-type {
+    text-align: end;
+}
+
+.box {
+    &.active .options {
+        display: flex;
+    }
+
+    .options {
+        position: absolute;
+        display: none;
+        flex-direction: column;
+        background-color: white;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 6px;
+        transition: 0.3s;
+        z-index: 100;
+        box-shadow: 0px 0px 15px 0px #222;
+
+        span {
+            text-transform: capitalize;
+            text-align: center;
+            padding: 10px 15px;
+            transition: 0.3s;
+
+            &:first-child {
+                border-top-left-radius: 6px;
+                border-top-right-radius: 6px;
+            }
+
+            &:last-child {
+                border-bottom-left-radius: 6px;
+                border-bottom-right-radius: 6px;
+            }
+
+            &:hover {
+                background-color: whitesmoke;
+            }
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            border-width: 15px;
+            border-style: solid;
+            border-color: transparent white transparent transparent;
+            left: 0px;
+            top: 50%;
+            transform: translate(-100%, -50%);
+            z-index: 1000;
+        }
+    }
+}

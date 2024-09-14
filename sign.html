@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/sign.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <title>Shopping | Login Or Sign Up</title>
+</head>
+
+<body>
+
+    <header>
+        <div onclick="closeHeader()" class="overlay"></div>
+        <div class="container">
+            <a href="index.html" class="logo">bestYshop</a>
+            <nav>
+                <button onclick="menuBtn()" class="nav-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul>
+                    <li class="home"><a href="index.html"><i class="fa-solid fa-house"></i>home</a></li>
+                    <li class="shopping"><a href="shopping.html"><i class="fa-solid fa-shop"></i>shopping</a></li>
+                    <li class="card"><a class="permetion card" href="#"><i class="fa-solid fa-cart-shopping"></i><span class="cartNumber"></span>Cart</a></li>
+                    <li class="love"><a class="permetion love" href="#"><i class="fa-solid fa-heart"></i><span class="favourtieNumber"></span>Favourite</a></li>
+                    <li class="stop login"><a onclick="goLogin()" href="sign.html"><i class="fa-solid fa-arrow-right-to-bracket"></i>login</a></li>
+                    <li class="stop sign-up"><a onclick="goSignUp()" href="sign.html"><i class="fa-solid fa-hands"></i>sign up</a></li>
+                    <li class="start"><a class="username"></a></li>
+                    <li class="start sign-out"><a onclick="signOut()" href="sign.html">sign out<i class="fa-solid fa-arrow-right-from-bracket"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <div class="container">
+        <div class="form-con">
+            <form>
+                <h2 class="form-title"></h2>
+                <input class="sign-up" type="text" placeholder="username">
+                <p>this username is already exists</p>
+                <input type="email" placeholder="email" autocomplete="username" required>
+                <p></p>
+                <input type="password" placeholder="Password" autocomplete="new-password" required>
+                <p>password is not correct</p>
+                <input class="sign-up" type="password" placeholder="confirm Password" autocomplete="new-password">
+                <p>password is not correct</p>
+                <div>
+                    <p class="question"></p>
+                    <input type="submit" value="">
+                </div>
+        </div>
+        </form>
+    </div>
+
+
+    <script src="js/sign.js"></script>
+</body>
+
+</html>

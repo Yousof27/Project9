@@ -1,0 +1,14 @@
+Dell Newest Inspiron 15 3511 Laptop, 15.6" FHD Touchscreen, Intel Core i5-1035G1, 12GB RAM, 256GB PCIe NVMe M.2 SSD, SD Card Reader, Webcam, HDMI, WiFi, Windows 11 Home
+
+4.2
+$420.00
+
+Brand				Dell
+Model Name			Inspiron
+Screen Size			15.6 Inches
+Hard Disk Size			256 GB
+CPU Model				Core i5 Family
+Ram Memory Installed Size	12 GB
+Operating System			Windows 11
+Special Feature			Numeric Keypad
+Graphics Card Description	Integrated

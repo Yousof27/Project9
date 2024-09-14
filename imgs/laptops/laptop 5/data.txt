@@ -1,0 +1,16 @@
+VGKE C15 Windows 11 Laptop 15.6" FHD, Full Size Backlit Keyboard with Fingerprint Reader, Intel Celeron N5095 Processor Quad-Core, 12GB RAM DDR4, 256GB SSD(Silver)
+
+4.0
+
+$349.99
+
+Brand						VGKE
+Model Name					C15
+Screen Size					15.6 Inches
+Color							Silver
+Hard Disk Size					256 GB
+CPU Model					Celeron N
+Ram Memory Installed Size		12 GB
+Operating System				Windows 11
+Special Feature					Fingerprint Reader, Numeric Keypad
+Graphics Card Description			Integrated

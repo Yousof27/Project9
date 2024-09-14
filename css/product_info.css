@@ -1,0 +1,98 @@
+:root {
+    --second-backgroundColor: linear-gradient(90deg, rgba(253, 253, 253, 1) 0%, rgba(218, 224, 230, 1) 100%);
+    --main-backgroundColor: rgb(218, 224, 230);
+}
+
+body {
+    background: var(--second-backgroundColor);
+}
+
+.container .product {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px 10px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.image-con {
+    padding: 40px;
+    border: 1px solid #888;
+    background-color: white;
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (max-width: 500px) {
+    .image {
+        width: 220px;
+        height: 220px;
+    }
+}
+
+.data-con {
+    flex: 1;
+    padding-bottom: 20px;
+
+    .data {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        border: 1px solid #777;
+        padding: 20px 20px 0px;
+        background-color: white;
+    }
+}
+
+.title {
+    font-size: 28px;
+}
+
+.description {
+    font-size: 18px;
+    line-height: 1.4;
+    color: #444;
+}
+
+.rate {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.price {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.btns {
+    width: 100%;
+    border-top: 1px solid #777;
+    padding: 20px 0px;
+    gap: 20px;
+}
+
+.features {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #777;
+
+    >div {
+        padding: 8px;
+        font-size: 14px;
+        border: 1px solid #888;
+        color: #444;
+        background-color: whitesmoke;
+        text-align: center;
+    }
+}

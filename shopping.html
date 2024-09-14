@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/shopping.css">
+    <title>Shopping | Shopping</title>
+</head>
+
+<body>
+
+    <!-- Start Header -->
+    <header>
+        <div onclick="closeHeader()" class="overlay"></div>
+        <div class="container">
+            <a href="index.html" class="logo">bestYshop</a>
+            <nav>
+                <button onclick="menuBtn()" class="nav-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul>
+                    <li class="home"><a href="index.html"><i class="fa-solid fa-house"></i>home</a></li>
+                    <li class="shopping"><a href="shopping.html"><i class="fa-solid fa-shop"></i>shopping</a></li>
+                    <li class="card"><a class="permetion card" href="#"><i class="fa-solid fa-cart-shopping"></i><span
+                                class="cartNumber"></span>Cart</a></li>
+                    <li class="love"><a class="permetion love" href="#"><i class="fa-solid fa-heart"></i><span
+                                class="favourtieNumber"></span>Favourite</a></li>
+                    <li class="stop login"><a onclick="goLogin()" href="sign.html"><i
+                                class="fa-solid fa-arrow-right-to-bracket"></i>login</a></li>
+                    <li class="stop sign-up"><a onclick="goSignUp()" href="sign.html"><i
+                                class="fa-solid fa-hands"></i>sign up</a></li>
+                    <li class="start"><a onclick="goUser()" class="username" href="#"></a></li>
+                    <li class="start sign-out"><a onclick="signOut()" href="sign.html">sign out<i
+                                class="fa-solid fa-arrow-right-from-bracket"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <div class="container">
+        <h2 class="page-title">Shop</h2>
+        <div class="path page-path">
+            <p>
+                <a href="index.html">home</a>
+                <span>></span>
+                <a href="shopping.html">shop</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Start Catigories -->
+    <section class="catigories" id="catigories">
+        <div class="container">
+            <div class="boxes-con">
+                <div class="search">
+                    <input type="text" class="search" placeholder="🔍 search">
+                </div>
+                <div class="catigory-con">
+                    <div id="random" class="random">
+                        <h2>Collection</h2>
+                    </div>
+                    <div id="laptops" class="laptops">
+                        <h2>Laptops</h2>
+                    </div>
+                    <div id="watches" class="watches">
+                        <h2>Smart Watches</h2>
+                    </div>
+                    <div id="headphones" class="headphones">
+                        <h2>Headphones</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Catigories -->
+
+
+    <!-- Start Products -->
+    <section class="products" id="products">
+        <div class="container">
+            <h2 class="empty-message remove">Not Exist</h2>
+        </div>
+    </section>
+    <!-- End Products -->
+
+
+    <script src="js/products.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/shopping.js"></script>
+</body>
+
+</html>

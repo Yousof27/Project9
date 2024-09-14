@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <title>Shopping | Home</title>
+</head>
+
+<body>
+
+    <!-- Start Main -->
+    <main>
+        <!-- Start Header -->
+        <header class="main-header">
+            <div onclick="closeHeader()" class="overlay"></div>
+            <div class="container">
+                <a href="index.html" class="logo">best<span>Y</span>shop</a>
+                <nav>
+                    <button onclick="menuBtn()" class="nav-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul>
+                        <li class="home"><a href="index.html"><i class="fa-solid fa-house"></i>home</a></li>
+                        <li class="shopping"><a href="shopping.html"><i class="fa-solid fa-shop"></i>shopping</a></li>
+                        <li class="card"><a class="permetion card" href="#"><i
+                                    class="fa-solid fa-cart-shopping"></i><span class="cartNumber"></span>Cart</a></li>
+                        <li class="love"><a class="permetion love" href="#"><i class="fa-solid fa-heart"></i><span
+                                    class="favourtieNumber"></span>Favourite</a></li>
+                        <li class="stop login"><a onclick="goLogin()" href="sign.html"><i
+                                    class="fa-solid fa-arrow-right-to-bracket"></i>login</a></li>
+                        <li class="stop sign-up"><a onclick="goSignUp()" href="sign.html"><i
+                                    class="fa-solid fa-hands"></i>sign up</a></li>
+                        <li class="start"><a onclick="goUser()" class="username" href="#"></a></li>
+                        <li class="start sign-out"><a onclick="signOut()" href="sign.html">sign out<i
+                                    class="fa-solid fa-arrow-right-from-bracket"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- End Header -->
+
+
+        <!-- Start Hero Section -->
+        <div class="container">
+            <div class="text">
+                <h2 class="main-title">Welcome <span>To Our Shop</span></h2>
+                <p>Welcome to our online store! Explore our diverse collection of high quality products. Start shopping
+                    today!</p>
+                <a href="shopping.html"><button>Shopping</button></a>
+            </div>
+        </div>
+        <!-- End Hero Section -->
+
+        <video src="imgs/Online Shopping 🛒 explainer video🎥🔊 Adobe After Effects 💻.mp4" autoplay muted loop></video>
+    </main>
+    <!-- End Main -->
+
+
+
+    <!-- Start Features -->
+    <section class="features">
+        <div class="container">
+            <div class="box">
+                <i class="fa-solid fa-truck"></i>
+                <p class="title">free shipping</p>
+                <p class="description">Enjoy free shipping on all orders, no minimum required.</p>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-phone"></i>
+                <p class="title">Customer Support</p>
+                <p class="description">Our friendly support team is here to assist you anytime.</p>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-shield"></i>
+                <p class="title">Secure Payment</p>
+                <p class="description">Shop confidently with our safe and secure payment options.</p>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-rotate-left"></i>
+                <p class="title">Free Return</p>
+                <p class="description">You can return any item free within 14 days for a refund.</p>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-money-bill"></i>
+                <p class="title">Best Prices</p>
+                <p class="description">Guaranteed best prices on all products, shop and save!</p>
+            </div>
+        </div>
+    </section>
+    <!-- End Features -->
+
+
+
+    <!-- Start Main Catigories -->
+    <section class="main-catigories">
+        <div class="container">
+            <div id="random" class="box">
+                <img src="imgs/catigories/desk-chair.jpg" alt="img">
+                <h2 class="title">chairs</h2>
+            </div>
+            <div id="headphones" class="box">
+                <img src="imgs/catigories/headphone.jpg" alt="img">
+                <h2 class="title">headphones</h2>
+            </div>
+            <div id="laptops" class="box">
+                <img src="imgs/catigories/laptop.jpg" alt="img">
+                <h2 class="title">laptops</h2>
+            </div>
+            <div id="random" class="box">
+                <img src="imgs/catigories/pag.jpg" alt="img">
+                <h2 class="title">bags</h2>
+            </div>
+            <div id="random" class="box">
+                <img src="imgs/catigories/phones.jpg" alt="img">
+                <h2 class="title">phones</h2>
+            </div>
+            <div id="random" class="box">
+                <img src="imgs/catigories/shoes.jpg" alt="img">
+                <h2 class="title">shoes</h2>
+            </div>
+            <div id="random" class="box">
+                <img src="imgs/catigories/t-shert.jpg" alt="img">
+                <h2 class="title">clothes</h2>
+            </div>
+            <div id="watches" class="box">
+                <img src="imgs/catigories/smartwatch0.jpg" alt="img">
+                <h2 class="title">watches</h2>
+            </div>
+        </div>
+    </section>
+    <!-- End Main Catigories -->
+
+    <script src="js/products.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

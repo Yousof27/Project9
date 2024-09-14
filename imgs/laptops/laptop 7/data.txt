@@ -1,0 +1,14 @@
+SAMSUNG 14 Galaxy Book4 Pro Laptop PC Computer, Intel Core 7 Ultra Processor 512GB, 3K AMOLED (2880 x 1800) Touchscreen, Advanced Security, 2024 Model, NP940XGK-KG1US
+
+4.1
+$1149.99
+
+Brand						SAMSUNG
+Model Name					Galaxy Book4
+Screen Size					14 Inches
+CPU Model					Intel Core i7
+Ram Memory Installed Size		16 GB
+Operating System				Windows 11 Home
+Graphics Card Description		Integrated
+CPU Speed					4
+Hard Disk Description			SSD

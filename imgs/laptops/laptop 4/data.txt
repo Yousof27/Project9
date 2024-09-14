@@ -1,0 +1,16 @@
+MSI Raider GE76 Gaming Laptop: Intel Core i9-12900H, GeForce RTX 3060, 17.3" 144Hz FHD Display,16GB DDR5, 1TB NVMe SSD, Thunderbolt 4, Cooler Boost 5, Win 11 Home: Titanium Blue 12UE-871
+
+4.4
+$1,108.79
+
+
+Brand					MSI
+Model Name				Raider GE76 12UE-871
+Screen Size				17.3 Inches
+Color						Black
+Hard Disk Size				1 TB
+CPU Model				Core i9
+Ram Memory Installed Size	16 GB
+Operating System			Windows 11 Home
+Special Feature				Numeric Keypad
+Graphics Card Description		Dedicated
