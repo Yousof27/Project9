@@ -6,13 +6,12 @@ body {
 .catigories {
     width: 100%;
     background-color: white;
-    margin: 60px 0px;
 }
 
 .catigories .container .boxes-con {
     width: 100%;
     max-width: 500px;
-    margin: auto;
+    margin: 60px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,7 +62,6 @@ body {
 /* Start Products */
 .products {
     padding-bottom: 70px;
-    /* background: var(--second-backgroundColor); */
     background-color: white;
 }
 
