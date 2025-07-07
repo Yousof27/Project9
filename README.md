@@ -35,6 +35,6 @@ A fully functional e-commerce web application built using only HTML, CSS, and va
 ## 📬 Contact Me
 
 - **Youssef Kamal**
-- [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/youssef-kamal-1-front-end-dev)
+- [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yousof-kamal-helmy)
 - [![GitHub](https://img.shields.io/badge/GitHub-000?style=flat&logo=github&logoColor=white)](https://github.com/Yousof27)
 - 📧 Email: yousofkamal24@gmail.com
